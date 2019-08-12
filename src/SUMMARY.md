@@ -20,6 +20,7 @@
     - [Task](./transaksi/task.md)
         - [Penjelasan](./transaksi/task/penjelasan.md)
         - [Membuat Task](./transaksi/task/membuat.md)
+        - [Memodifikasi Task](./transaksi/task/memodifikasi.md)
         - [Memulai Task](./transaksi/task/memulai.md)
         - [Menyelesaikan Task](./transaksi/task/menyelesaikan.md)
         - [Membatalkan Task](./transaksi/task/membatalkan.md)
