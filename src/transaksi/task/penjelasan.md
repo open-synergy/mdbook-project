@@ -46,9 +46,13 @@ Penjelasan task
 
 ### <a name="tabel-timesheet">B.1. Tabel Timesheet</a>
 
+Tabel timesheet akan berisi detail pengerjaan dan waktu pengerjaan task
+
+![](../../img/task/tabel-timesheet.png)
+
 #### <a name="field-timesheet-description">Description</a>
 
-Deskripsi timesheet
+Deskripsi pengerjaan
 
 #### <a name="field-timesheet-quantity">Quantity</a>
 
@@ -60,7 +64,7 @@ Tanggal timesheet dilakukan
 
 #### <a name="field-timesheet-invoiceable">Invoiceable</a>
 
-#TODO
+Opsi untuk (1) menentukan apakah waktu pengerjaan dapat diinvoice ke konsumen/klien, (2) menentukan berapa proporsi waktu yang dapat diinvoice ke konsumen/klien.
 
 ## <a name="tab-extra-info">C. TAB EXTRA INFO</a>
 
@@ -72,11 +76,11 @@ Prioritas task
 
 #### <a name="field-customer">Customer</a>
 
-Abaikan
+*(Abaikan)*
 
 #### <a name="field-order-line">Order Line</a>
 
-Abaikan
+*(Abaikan)*
 
 #### <a name="field-sequence">Sequence</a>
 
@@ -84,7 +88,13 @@ Urutan task
 
 #### <a name="field-state">State</a>
 
-Status dari task
+Status dari task. Berikut adalah beberapa status yang dapat terjadi:
+
+1. **Draft**. Task belum mulai dikerjakan.
+2. **On Progress**. Task sedang dikerjakan.
+3. **Done**. Task sudah selesai.
+4. **Pending**. Task sudah mulai dikerjakan namun pengerjaannya sedang dipending.
+5. **Cancel**. Task sudah dibatalkan.
 
 #### <a name="field-company">Company</a>
 
@@ -154,11 +164,15 @@ Perhitungan penambahan/pengurangan tanggal selesai
 
 Satuan perhitungan penambahan/pengurangan tanggal selesai
 
-## <a name="tab-schedule">E. TAB DEPENDENCIES</a>
+## <a name="tab-dependencies">E. TAB DEPENDENCIES</a>
 
 ![](../../img/task/penjelasan-tab-dependency.png)
 
 ### <a name="tabel-predecessor">E.1 TABEL PREDECESSOR</a>
+
+Tabel predecessor akan berisi tugas-tugas (task) yang pelaksanaannya mendahului task terkait.
+
+![](../../img/task/tabel-predecessor.png)
 
 #### <a name="field-predecessor-task">Predecessor Task</a>
 
@@ -175,17 +189,38 @@ Jenis hubungan dengan predecessor. Terdapat beberapa jenis hubungan yang dapat d
 
 #### <a name="field-predecessor-task-stage">Task Stage</a>
 
+Stage dari task pendahulu
+
 #### <a name="field-predecessor-task-state">Task State</a>
+
+State dari task pendahulu
 
 ### <a name="tabel-successor">E.1 TABEL SUCESSOR</a>
 
+![](../../img/task/tabel-predecessor.png)
+
+Tabel predecessor akan berisi tugas-tugas (task) yang pelaksanaannya didahului oleh task terkait.
+
 #### <a name="field-successor-task">Successor Task</a>
+
+Task lanjutan
 
 #### <a name="field-successor-dependency-type">Dependency Type</a>
 
+Jenis hubungan dengan sucessor. Terdapat beberapa jenis hubungan yang dapat dipilih:
+
+* **Start-To-Finish**. Task harus dimulai terlebih dahulu sebelum predecessor dapat diselesaikan.
+* **Start-To-Start**. Task harus dimulai terlebih dahulu sebelum predecessor dapat dimulai.
+* **Finish-To-Start**. Task harus diselesaikan terlebih dahulu sebelum predecessor dapat dimulai.
+* **Finish-To-Finish**. Task harus diselesaikan terlebih dahulu sebelum predecessor dapat diselesaikan.
+
 #### <a name="field-successor-task-stage">Task Stage</a>
 
+Stage dari task lanjutan
+
 #### <a name="field-successor-task-state">Task State</a>
+
+State dari task lanjutan
 
 ## <a name="tab-schedule">F. TAB QUALITY CONTROL</a>
 
@@ -193,19 +228,38 @@ Jenis hubungan dengan predecessor. Terdapat beberapa jenis hubungan yang dapat d
 
 #### <a name="field-qc-pass">QC Passed?</a>
 
+QC Passed akan bernilai True apabila semua pertanyaan pada tabel quality control lolos uji (ditandai dengan nilai True pada field **Success**). Bernilai False apabila salah satu pertanyaan pada tabel quality control tidak lolos uji (ditandai dengan nilai False pada field **Success**)
+
 ### <a name="tabel-qc">F.1 TABEL QUALITY CONTROL</a>
+
+Tabel quality control akan berisi item-item pengujian yang dibutuhkan agar task dapat diselesaikan.
 
 #### <a name="field-qc-question">Question</a>
 
+Pertanyaan yang akan diuji
+
 #### <a name="field-qc-type">Type</a>
+
+Tipe item pengujian, yaitu:
+
+1. Quantitative: User harus menyediakan jawaban atas pertanyaan yang akan diuji dalam bentuk angka.
+2. Qualitative: User harus memilih jawaban atas pertanyaan yang akan diuji.
 
 #### <a name="field-qc-qualitative-value">Qualitative Value</a>
 
+Jawaban dari pertanyaan (jika isian Type sama dengan Qualitative)
+
 #### <a name="field-qc-quantitative-value">Quantitative Value</a>
+
+Jawaban dari pertanyaan (jika isian Type sama dengan Quantitative)
 
 #### <a name="field-qc-valid-value">Valid Value</a>
 
+Jawaban yang dibutuhkan agar item pengujian lolos uji
+
 #### <a name="field-qc-success">Success?</a>
+
+Bernilai True apabila jawaban (**Qualitative Value** atau **Quantitative Value**, tergantung Type) sesuai dengan **Valid Value**
 
 ## <a name="tab-instruction">G. TAB INSTRUCTION</a>
 
