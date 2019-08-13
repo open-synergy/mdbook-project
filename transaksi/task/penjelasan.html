@@ -1,0 +1,366 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Penjelasan - Odoo - Project Management</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body class="light">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../pengantar.html">Pengantar</a></li><li class="affix"><a href="../../terminologi.html">Terminologi</a></li><li><a href="../../transaksi.html"><strong aria-hidden="true">1.</strong> Transaksi</a></li><li><ol class="section"><li><a href="../../transaksi/project.html"><strong aria-hidden="true">1.1.</strong> Project</a></li><li><ol class="section"><li><a href="../../transaksi/project/penjelasan.html"><strong aria-hidden="true">1.1.1.</strong> Penjelasan</a></li><li><a href="../../transaksi/project/membuat-manual.html"><strong aria-hidden="true">1.1.2.</strong> Membuat Project Secara Manual</a></li><li><a href="../../transaksi/project/modifikasi.html"><strong aria-hidden="true">1.1.3.</strong> Memodifikasi Project</a></li><li><a href="../../transaksi/project/menghapus.html"><strong aria-hidden="true">1.1.4.</strong> Menghapus Project</a></li><li><a href="../../transaksi/project/membuat-manual-tim.html"><strong aria-hidden="true">1.1.5.</strong> Menambahkan Tim Proyek</a></li><li><a href="../../transaksi/project/menghapus-tim.html"><strong aria-hidden="true">1.1.6.</strong> Menghapus Tim Proyek</a></li><li><a href="../../transaksi/project/membuat-manual-stage.html"><strong aria-hidden="true">1.1.7.</strong> Menambahkan Project Stages</a></li><li><a href="../../transaksi/project/menghapus-stage.html"><strong aria-hidden="true">1.1.8.</strong> Menghapus Project Stages</a></li><li><a href="../../transaksi/project/membuat-contract.html"><strong aria-hidden="true">1.1.9.</strong> Membuat Project Melalui Contract</a></li><li><a href="../../transaksi/project/membuat-sales-order.html"><strong aria-hidden="true">1.1.10.</strong> Membuat Project Melalui Sales Order</a></li><li><a href="../../transaksi/project/menyelesaikan.html"><strong aria-hidden="true">1.1.11.</strong> Menyelesaikan Project</a></li><li><a href="../../transaksi/project/membuka-kembali.html"><strong aria-hidden="true">1.1.12.</strong> Membuka Kembali Project</a></li><li><a href="../../transaksi/project/membatalkan.html"><strong aria-hidden="true">1.1.13.</strong> Membatalkan Project</a></li></ol></li><li><a href="../../transaksi/task.html"><strong aria-hidden="true">1.2.</strong> Task</a></li><li><ol class="section"><li><a href="../../transaksi/task/penjelasan.html" class="active"><strong aria-hidden="true">1.2.1.</strong> Penjelasan</a></li><li><a href="../../transaksi/task/membuat.html"><strong aria-hidden="true">1.2.2.</strong> Membuat Task</a></li><li><a href="../../transaksi/task/memodifikasi.html"><strong aria-hidden="true">1.2.3.</strong> Memodifikasi Task</a></li><li><a href="../../transaksi/task/menambahkan-predecessor.html"><strong aria-hidden="true">1.2.4.</strong> Menambahkan Task Predecessors</a></li><li><a href="../../transaksi/task/memodifikasi-predecessor.html"><strong aria-hidden="true">1.2.5.</strong> Memodifikasi Task Predecessors</a></li><li><a href="../../transaksi/task/menghapus-predecessor.html"><strong aria-hidden="true">1.2.6.</strong> Menghapus Task Predecessors</a></li><li><a href="../../transaksi/task/memulai.html"><strong aria-hidden="true">1.2.7.</strong> Memulai Task</a></li><li><a href="../../transaksi/task/menyelesaikan.html"><strong aria-hidden="true">1.2.8.</strong> Menyelesaikan Task</a></li><li><a href="../../transaksi/task/membatalkan.html"><strong aria-hidden="true">1.2.9.</strong> Membatalkan Task</a></li></ol></li><li><a href="../../transaksi/issue.html"><strong aria-hidden="true">1.3.</strong> Issue</a></li></ol></li><li><a href="../../konfigurasi.html"><strong aria-hidden="true">2.</strong> Konfigurasi</a></li><li><ol class="section"><li><a href="../../konfigurasi/task-stage.html"><strong aria-hidden="true">2.1.</strong> Task Stage</a></li><li><a href="../../konfigurasi/project-template.html"><strong aria-hidden="true">2.2.</strong> Project Template</a></li><li><ol class="section"><li><a href="../../konfigurasi/project-template/penjelasan.html"><strong aria-hidden="true">2.2.1.</strong> Penjelasan Project Template</a></li><li><a href="../../konfigurasi/project-template/membuat.html"><strong aria-hidden="true">2.2.2.</strong> Membuat Project Template</a></li><li><a href="../../konfigurasi/project-template/memodifikasi.html"><strong aria-hidden="true">2.2.3.</strong> Memodifikasi Project Template</a></li><li><a href="../../konfigurasi/project-template/menghapus.html"><strong aria-hidden="true">2.2.4.</strong> Menghapus Project Template</a></li><li><a href="../../konfigurasi/project-template/menambah-task-template.html"><strong aria-hidden="true">2.2.5.</strong> Menambahkan Task Template</a></li><li><a href="../../konfigurasi/project-template/memodifikasi-task-template.html"><strong aria-hidden="true">2.2.6.</strong> Memodifikasi Task Template</a></li><li><a href="../../konfigurasi/project-template/menghapus-task-template.html"><strong aria-hidden="true">2.2.7.</strong> Menghapus Task Template</a></li><li><a href="../../konfigurasi/project-template/menambah-task-template-dependency.html"><strong aria-hidden="true">2.2.8.</strong> Menambahkan Task Template Dependency</a></li><li><a href="../../konfigurasi/project-template/memodifikasi-task-template-dependency.html"><strong aria-hidden="true">2.2.9.</strong> Memodifikasi Task Template Dependency</a></li><li><a href="../../konfigurasi/project-template/menghapus-task-template-dependency.html"><strong aria-hidden="true">2.2.10.</strong> Menghapus Task Template Dependency</a></li><li><a href="../../konfigurasi/project-template/membuat-project-dari-template.html"><strong aria-hidden="true">2.2.11.</strong> Membuat Project Dari Project Template</a></li></ol></li><li><a href="../../konfigurasi/tag.html"><strong aria-hidden="true">2.3.</strong> Tag</a></li><li><a href="../../konfigurasi/task-category.html"><strong aria-hidden="true">2.4.</strong> Task Category</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Odoo - Project Management</h1>
+
+                        <div class="right-buttons">
+                            <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#penjelasan" id="penjelasan">Penjelasan</a></h1>
+<h2><a class="header" href="#a-namebagian-headera-bagian-headera" id="a-namebagian-headera-bagian-headera"><a name="bagian-header">A. BAGIAN HEADER</a></a></h2>
+<p><img src="../../img/task/penjelasan-header.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-nametask-summarya" id="a-namefield-nametask-summarya"><a name="field-name">Task Summary</a></a></h4>
+<p>Penjelasan singkat <em>task</em></p>
+<h4><a class="header" href="#a-namefield-templatetemplatea" id="a-namefield-templatetemplatea"><a name="field-template">Template</a></a></h4>
+<p>Template task yang digunakan</p>
+<h4><a class="header" href="#a-namefield-categorycategorya" id="a-namefield-categorycategorya"><a name="field-category">Category</a></a></h4>
+<p>Kategori task</p>
+<h4><a class="header" href="#a-namefield-projectprojecta" id="a-namefield-projectprojecta"><a name="field-project">Project</a></a></h4>
+<p>Project yang memiliki task tersebut</p>
+<h4><a class="header" href="#a-namefield-assignedassigned-toa" id="a-namefield-assignedassigned-toa"><a name="field-assigned">Assigned To</a></a></h4>
+<p>User yang ditugaskan untuk menyelesaikan task</p>
+<h4><a class="header" href="#a-namefield-reviwerreviewera" id="a-namefield-reviwerreviewera"><a name="field-reviwer">Reviewer</a></a></h4>
+<p>User yang ditugaskan untuk mereview penyelesaian task</p>
+<h4><a class="header" href="#a-namefield-deadlinedeadlinea" id="a-namefield-deadlinedeadlinea"><a name="field-deadline">Deadline</a></a></h4>
+<p>Abaikan</p>
+<h4><a class="header" href="#a-namefield-tagstagsa" id="a-namefield-tagstagsa"><a name="field-tags">Tags</a></a></h4>
+<p>Penggolongan task</p>
+<h2><a class="header" href="#a-nametab-descrptionb-tab-descriptiona" id="a-nametab-descrptionb-tab-descriptiona"><a name="tab-descrption">B. TAB DESCRIPTION</a></a></h2>
+<p><img src="../../img/task/penjelasan-tab-description.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-descriptiondescriptiona" id="a-namefield-descriptiondescriptiona"><a name="field-description">Description</a></a></h4>
+<p>Penjelasan task</p>
+<h3><a class="header" href="#a-nametabel-timesheetb1-tabel-timesheeta" id="a-nametabel-timesheetb1-tabel-timesheeta"><a name="tabel-timesheet">B.1. Tabel Timesheet</a></a></h3>
+<p>Tabel timesheet akan berisi detail pengerjaan dan waktu pengerjaan task</p>
+<p><img src="../../img/task/tabel-timesheet.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-timesheet-descriptiondescriptiona" id="a-namefield-timesheet-descriptiondescriptiona"><a name="field-timesheet-description">Description</a></a></h4>
+<p>Deskripsi pengerjaan</p>
+<h4><a class="header" href="#a-namefield-timesheet-quantityquantitya" id="a-namefield-timesheet-quantityquantitya"><a name="field-timesheet-quantity">Quantity</a></a></h4>
+<p>Jumlah jam yang digunakan (format HH:MM)</p>
+<h4><a class="header" href="#a-namefield-timesheet-datedatea" id="a-namefield-timesheet-datedatea"><a name="field-timesheet-date">Date</a></a></h4>
+<p>Tanggal timesheet dilakukan</p>
+<h4><a class="header" href="#a-namefield-timesheet-invoiceableinvoiceablea" id="a-namefield-timesheet-invoiceableinvoiceablea"><a name="field-timesheet-invoiceable">Invoiceable</a></a></h4>
+<p>Opsi untuk (1) menentukan apakah waktu pengerjaan dapat diinvoice ke konsumen/klien, (2) menentukan berapa proporsi waktu yang dapat diinvoice ke konsumen/klien.</p>
+<h2><a class="header" href="#a-nametab-extra-infoc-tab-extra-infoa" id="a-nametab-extra-infoc-tab-extra-infoa"><a name="tab-extra-info">C. TAB EXTRA INFO</a></a></h2>
+<p><img src="../../img/task/penjelasan-tab-other-info.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-priorityprioritya" id="a-namefield-priorityprioritya"><a name="field-priority">Priority</a></a></h4>
+<p>Prioritas task</p>
+<h4><a class="header" href="#a-namefield-customercustomera" id="a-namefield-customercustomera"><a name="field-customer">Customer</a></a></h4>
+<p><em>(Abaikan)</em></p>
+<h4><a class="header" href="#a-namefield-order-lineorder-linea" id="a-namefield-order-lineorder-linea"><a name="field-order-line">Order Line</a></a></h4>
+<p><em>(Abaikan)</em></p>
+<h4><a class="header" href="#a-namefield-sequencesequencea" id="a-namefield-sequencesequencea"><a name="field-sequence">Sequence</a></a></h4>
+<p>Urutan task</p>
+<h4><a class="header" href="#a-namefield-statestatea" id="a-namefield-statestatea"><a name="field-state">State</a></a></h4>
+<p>Status dari task. Berikut adalah beberapa status yang dapat terjadi:</p>
+<ol>
+<li><strong>Draft</strong>. Task belum mulai dikerjakan.</li>
+<li><strong>On Progress</strong>. Task sedang dikerjakan.</li>
+<li><strong>Done</strong>. Task sudah selesai.</li>
+<li><strong>Pending</strong>. Task sudah mulai dikerjakan namun pengerjaannya sedang dipending.</li>
+<li><strong>Cancel</strong>. Task sudah dibatalkan.</li>
+</ol>
+<h4><a class="header" href="#a-namefield-companycompanya" id="a-namefield-companycompanya"><a name="field-company">Company</a></a></h4>
+<p>Pemilik task</p>
+<h4><a class="header" href="#a-namefield-last-stage-updatelast-stage-updatea" id="a-namefield-last-stage-updatelast-stage-updatea"><a name="field-last-stage-update">Last Stage Update</a></a></h4>
+<p>Waktu terakhir task berubah stage</p>
+<h2><a class="header" href="#a-nametab-scheduled-tab-schedulea" id="a-nametab-scheduled-tab-schedulea"><a name="tab-schedule">D. TAB SCHEDULE</a></a></h2>
+<p><img src="../../img/task/penjelasan-tab-schedule.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-timezonetimezonea" id="a-namefield-timezonetimezonea"><a name="field-timezone">Timezone</a></a></h4>
+<p>Zona waktu yang digunakan dalam menghitung jadwal</p>
+<h4><a class="header" href="#a-namefield-start-schedule-based-onstart-schedule-based-ona" id="a-namefield-start-schedule-based-onstart-schedule-based-ona"><a name="field-start-schedule-based-on">Start Schedule Based On</a></a></h4>
+<p>Patokan tanggal mulai task. Beberapa opsi dapat yang dapat dipilih:</p>
+<ul>
+<li><strong>Manual</strong>. User harus secara manual menentukan tanggal mulai task</li>
+<li><strong>Task Baseline Start</strong>. Tanggal mulai akan dihitung dengan berpatokan pada <strong>Baseline Start</strong> yang dimiliki oleh task yang dipilih pada isian <strong>Task Based Schedule</strong></li>
+<li><strong>Task Baseline Finish</strong>. Tanggal mulai akan dihitung dengan berpatokan pada <strong>Baseline Finish</strong> yang dimiliki oleh task yang dipilih pada isian <strong>Task Based Schedule</strong></li>
+<li><strong>Project Baseline Start</strong>. Tanggal mulai akan dihitung dengan berpatokan pada <strong>Baseline Start</strong> yang dimiliki oleh project yang dipilih pada isian <strong>Project Based Schedule</strong></li>
+<li><strong>Project Baseline Finish</strong>. Tanggal mulai akan dihitung dengan berpatokan pada <strong>Baseline Finish</strong> yang dimiliki oleh project yang dipilih pada isian <strong>Project Based Schedule</strong></li>
+</ul>
+<h4><a class="header" href="#a-namefield-project-based-schedule-startproject-based-schedulea" id="a-namefield-project-based-schedule-startproject-based-schedulea"><a name="field-project-based-schedule-start">Project Based Schedule</a></a></h4>
+<p><em>Project</em> yang akan digunakan sebagai patokan untuk menentukan tanggal mulai task. Hanya muncul apabila isian <strong>Start Schedule Based On</strong> tidak sama dengan <strong>Manual</strong></p>
+<h4><a class="header" href="#a-namefield-task-based-schedule-starttask-based-schedulea" id="a-namefield-task-based-schedule-starttask-based-schedulea"><a name="field-task-based-schedule-start">Task Based Schedule</a></a></h4>
+<p><em>Task</em> yang akan digunakan sebagai patokan untuk menentukan tanggal mulai <em>project</em>. Hanya muncul apabila isian <strong>Start Schedule Based On</strong> tidak sama dengan <strong>Manual</strong></p>
+<h4><a class="header" href="#a-namefield-baseline-start-offsetbaseline-start-offseta" id="a-namefield-baseline-start-offsetbaseline-start-offseta"><a name="field-baseline-start-offset">Baseline Start Offset</a></a></h4>
+<p>Perhitungan penambahan/pengurangan tanggal mulai</p>
+<h4><a class="header" href="#a-namefield-baseline-start-offset-uombaseline-start-offset-uoma" id="a-namefield-baseline-start-offset-uombaseline-start-offset-uoma"><a name="field-baseline-start-offset-uom">Baseline Start Offset UoM</a></a></h4>
+<p>Satuan perhitungan penambahan/pengurangan tanggal mulai</p>
+<h4><a class="header" href="#a-namefield-finish-schedule-based-onfinish-schedule-based-ona" id="a-namefield-finish-schedule-based-onfinish-schedule-based-ona"><a name="field-finish-schedule-based-on">Finish Schedule Based On</a></a></h4>
+<p>Patokan tanggal selesai task. Beberapa opsi dapat yang dapat dipilih:</p>
+<ul>
+<li><strong>Manual</strong>. User harus secara manual menentukan tanggal selesai project</li>
+<li><strong>Task Baseline Start</strong>. Tanggal selesai akan dihitung dengan berpatokan pada <strong>Baseline Start</strong> yang dimiliki oleh <em>task</em> yang dipilih pada isian <strong>Task Based Schedule</strong></li>
+<li><strong>Task Baseline Finish</strong>. Tanggal selesai akan dihitung dengan berpatokan pada <strong>Baseline Finish</strong> yang dimiliki oleh <em>task</em> yang dipilih pada isian <strong>Task Based Schedule</strong></li>
+<li><strong>Project Baseline Start</strong>. Tanggal selesai akan dihitung dengan berpatokan pada <strong>Baseline Start</strong> yang dimiliki oleh <em>project</em> yang dipilih pada isian <strong>Project Based Schedule</strong></li>
+<li><strong>Project Baseline Finish</strong>. Tanggal selesai akan dihitung dengan berpatokan pada <strong>Baseline Finish</strong> yang dimiliki oleh <em>project</em> yang dipilih pada isian <strong>Project Based Schedule</strong></li>
+</ul>
+<h4><a class="header" href="#a-namefield-project-based-schedule-finishproject-based-schedulea" id="a-namefield-project-based-schedule-finishproject-based-schedulea"><a name="field-project-based-schedule-finish">Project Based Schedule</a></a></h4>
+<p><em>Project</em> yang akan digunakan sebagai patokan untuk menentukan tanggal selesai task. Hanya muncul apabila isian <strong>Finish Schedule Based On</strong> tidak sama dengan <strong>Manual</strong></p>
+<h4><a class="header" href="#a-namefield-task-based-schedule-finishtask-based-schedulea" id="a-namefield-task-based-schedule-finishtask-based-schedulea"><a name="field-task-based-schedule-finish">Task Based Schedule</a></a></h4>
+<p><em>Task</em> yang akan digunakan sebagai patokan untuk menentukan tanggal selesai <em>project</em>. Hanya muncul apabila isian <strong>Finish Schedule Based On</strong> tidak sama dengan <strong>Manual</strong></p>
+<h4><a class="header" href="#a-namefield-baseline-finish-offsetbaseline-finish-offseta" id="a-namefield-baseline-finish-offsetbaseline-finish-offseta"><a name="field-baseline-finish-offset">Baseline Finish Offset</a></a></h4>
+<p>Perhitungan penambahan/pengurangan tanggal selesai</p>
+<h4><a class="header" href="#a-namefield-baseline-finish-offset-uombaseline-finish-offset-uoma" id="a-namefield-baseline-finish-offset-uombaseline-finish-offset-uoma"><a name="field-baseline-finish-offset-uom">Baseline Finish Offset UoM</a></a></h4>
+<p>Satuan perhitungan penambahan/pengurangan tanggal selesai</p>
+<h2><a class="header" href="#a-nametab-dependenciese-tab-dependenciesa" id="a-nametab-dependenciese-tab-dependenciesa"><a name="tab-dependencies">E. TAB DEPENDENCIES</a></a></h2>
+<p><img src="../../img/task/penjelasan-tab-dependency.png" alt="" /></p>
+<h3><a class="header" href="#a-nametabel-predecessore1-tabel-predecessora" id="a-nametabel-predecessore1-tabel-predecessora"><a name="tabel-predecessor">E.1 TABEL PREDECESSOR</a></a></h3>
+<p>Tabel predecessor akan berisi tugas-tugas (task) yang pelaksanaannya mendahului task terkait.</p>
+<p><img src="../../img/task/tabel-predecessor.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-predecessor-taskpredecessor-taska" id="a-namefield-predecessor-taskpredecessor-taska"><a name="field-predecessor-task">Predecessor Task</a></a></h4>
+<p>Task pendahulu</p>
+<h4><a class="header" href="#a-namefield-predecessor-dependency-typedependency-typea" id="a-namefield-predecessor-dependency-typedependency-typea"><a name="field-predecessor-dependency-type">Dependency Type</a></a></h4>
+<p>Jenis hubungan dengan predecessor. Terdapat beberapa jenis hubungan yang dapat dipilih:</p>
+<ul>
+<li><strong>Start-To-Finish</strong>. Predecessor harus dimulai terlebih dahulu sebelum task dapat diselesaikan.</li>
+<li><strong>Start-To-Start</strong>. Predecessor harus dimulai terlebih dahulu sebelum task dapat dimulai.</li>
+<li><strong>Finish-To-Start</strong>. Predecessor harus diselesaikan terlebih dahulu sebelum task dapat dimulai.</li>
+<li><strong>Finish-To-Finish</strong>. Predecessor harus diselesaikan terlebih dahulu sebelum task dapat diselesaikan.</li>
+</ul>
+<h4><a class="header" href="#a-namefield-predecessor-task-stagetask-stagea" id="a-namefield-predecessor-task-stagetask-stagea"><a name="field-predecessor-task-stage">Task Stage</a></a></h4>
+<p>Stage dari task pendahulu</p>
+<h4><a class="header" href="#a-namefield-predecessor-task-statetask-statea" id="a-namefield-predecessor-task-statetask-statea"><a name="field-predecessor-task-state">Task State</a></a></h4>
+<p>State dari task pendahulu</p>
+<h3><a class="header" href="#a-nametabel-successore1-tabel-sucessora" id="a-nametabel-successore1-tabel-sucessora"><a name="tabel-successor">E.1 TABEL SUCESSOR</a></a></h3>
+<p><img src="../../img/task/tabel-predecessor.png" alt="" /></p>
+<p>Tabel predecessor akan berisi tugas-tugas (task) yang pelaksanaannya didahului oleh task terkait.</p>
+<h4><a class="header" href="#a-namefield-successor-tasksuccessor-taska" id="a-namefield-successor-tasksuccessor-taska"><a name="field-successor-task">Successor Task</a></a></h4>
+<p>Task lanjutan</p>
+<h4><a class="header" href="#a-namefield-successor-dependency-typedependency-typea" id="a-namefield-successor-dependency-typedependency-typea"><a name="field-successor-dependency-type">Dependency Type</a></a></h4>
+<p>Jenis hubungan dengan sucessor. Terdapat beberapa jenis hubungan yang dapat dipilih:</p>
+<ul>
+<li><strong>Start-To-Finish</strong>. Task harus dimulai terlebih dahulu sebelum predecessor dapat diselesaikan.</li>
+<li><strong>Start-To-Start</strong>. Task harus dimulai terlebih dahulu sebelum predecessor dapat dimulai.</li>
+<li><strong>Finish-To-Start</strong>. Task harus diselesaikan terlebih dahulu sebelum predecessor dapat dimulai.</li>
+<li><strong>Finish-To-Finish</strong>. Task harus diselesaikan terlebih dahulu sebelum predecessor dapat diselesaikan.</li>
+</ul>
+<h4><a class="header" href="#a-namefield-successor-task-stagetask-stagea" id="a-namefield-successor-task-stagetask-stagea"><a name="field-successor-task-stage">Task Stage</a></a></h4>
+<p>Stage dari task lanjutan</p>
+<h4><a class="header" href="#a-namefield-successor-task-statetask-statea" id="a-namefield-successor-task-statetask-statea"><a name="field-successor-task-state">Task State</a></a></h4>
+<p>State dari task lanjutan</p>
+<h2><a class="header" href="#a-nametab-schedulef-tab-quality-controla" id="a-nametab-schedulef-tab-quality-controla"><a name="tab-schedule">F. TAB QUALITY CONTROL</a></a></h2>
+<p><img src="../../img/task/penjelasan-tab-qc.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-qc-passqc-passeda" id="a-namefield-qc-passqc-passeda"><a name="field-qc-pass">QC Passed?</a></a></h4>
+<p>QC Passed akan bernilai True apabila semua pertanyaan pada tabel quality control lolos uji (ditandai dengan nilai True pada field <strong>Success</strong>). Bernilai False apabila salah satu pertanyaan pada tabel quality control tidak lolos uji (ditandai dengan nilai False pada field <strong>Success</strong>)</p>
+<h3><a class="header" href="#a-nametabel-qcf1-tabel-quality-controla" id="a-nametabel-qcf1-tabel-quality-controla"><a name="tabel-qc">F.1 TABEL QUALITY CONTROL</a></a></h3>
+<p>Tabel quality control akan berisi item-item pengujian yang dibutuhkan agar task dapat diselesaikan.</p>
+<h4><a class="header" href="#a-namefield-qc-questionquestiona" id="a-namefield-qc-questionquestiona"><a name="field-qc-question">Question</a></a></h4>
+<p>Pertanyaan yang akan diuji</p>
+<h4><a class="header" href="#a-namefield-qc-typetypea" id="a-namefield-qc-typetypea"><a name="field-qc-type">Type</a></a></h4>
+<p>Tipe item pengujian, yaitu:</p>
+<ol>
+<li>Quantitative: User harus menyediakan jawaban atas pertanyaan yang akan diuji dalam bentuk angka.</li>
+<li>Qualitative: User harus memilih jawaban atas pertanyaan yang akan diuji.</li>
+</ol>
+<h4><a class="header" href="#a-namefield-qc-qualitative-valuequalitative-valuea" id="a-namefield-qc-qualitative-valuequalitative-valuea"><a name="field-qc-qualitative-value">Qualitative Value</a></a></h4>
+<p>Jawaban dari pertanyaan (jika isian Type sama dengan Qualitative)</p>
+<h4><a class="header" href="#a-namefield-qc-quantitative-valuequantitative-valuea" id="a-namefield-qc-quantitative-valuequantitative-valuea"><a name="field-qc-quantitative-value">Quantitative Value</a></a></h4>
+<p>Jawaban dari pertanyaan (jika isian Type sama dengan Quantitative)</p>
+<h4><a class="header" href="#a-namefield-qc-valid-valuevalid-valuea" id="a-namefield-qc-valid-valuevalid-valuea"><a name="field-qc-valid-value">Valid Value</a></a></h4>
+<p>Jawaban yang dibutuhkan agar item pengujian lolos uji</p>
+<h4><a class="header" href="#a-namefield-qc-successsuccessa" id="a-namefield-qc-successsuccessa"><a name="field-qc-success">Success?</a></a></h4>
+<p>Bernilai True apabila jawaban (<strong>Qualitative Value</strong> atau <strong>Quantitative Value</strong>, tergantung Type) sesuai dengan <strong>Valid Value</strong></p>
+<h2><a class="header" href="#a-nametab-instructiong-tab-instructiona" id="a-nametab-instructiong-tab-instructiona"><a name="tab-instruction">G. TAB INSTRUCTION</a></a></h2>
+<p><img src="../../img/task/penjelasan-tab-instruction.png" alt="" /></p>
+<h3><a class="header" href="#a-nametabel-instructiong1-tabel-instructiona" id="a-nametabel-instructiong1-tabel-instructiona"><a name="tabel-instruction">G.1 TABEL INSTRUCTION</a></a></h3>
+<h4><a class="header" href="#a-namefield-instructioninstructiona" id="a-namefield-instructioninstructiona"><a name="field-instruction">Instruction</a></a></h4>
+<h4><a class="header" href="#a-namefield-instruction-urlinstruction-urla" id="a-namefield-instruction-urlinstruction-urla"><a name="field-instruction-url">Instruction URL</a></a></h4>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../transaksi/task.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../transaksi/task/membuat.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../../transaksi/task.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="../../transaksi/task/membuat.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Memodifikasi Task Template Dependency - Odoo - Project Management</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body class="light">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../pengantar.html">Pengantar</a></li><li class="affix"><a href="../../terminologi.html">Terminologi</a></li><li><a href="../../transaksi.html"><strong aria-hidden="true">1.</strong> Transaksi</a></li><li><ol class="section"><li><a href="../../transaksi/project.html"><strong aria-hidden="true">1.1.</strong> Project</a></li><li><ol class="section"><li><a href="../../transaksi/project/penjelasan.html"><strong aria-hidden="true">1.1.1.</strong> Penjelasan</a></li><li><a href="../../transaksi/project/membuat-manual.html"><strong aria-hidden="true">1.1.2.</strong> Membuat Project Secara Manual</a></li><li><a href="../../transaksi/project/modifikasi.html"><strong aria-hidden="true">1.1.3.</strong> Memodifikasi Project</a></li><li><a href="../../transaksi/project/menghapus.html"><strong aria-hidden="true">1.1.4.</strong> Menghapus Project</a></li><li><a href="../../transaksi/project/membuat-manual-tim.html"><strong aria-hidden="true">1.1.5.</strong> Menambahkan Tim Proyek</a></li><li><a href="../../transaksi/project/menghapus-tim.html"><strong aria-hidden="true">1.1.6.</strong> Menghapus Tim Proyek</a></li><li><a href="../../transaksi/project/membuat-manual-stage.html"><strong aria-hidden="true">1.1.7.</strong> Menambahkan Project Stages</a></li><li><a href="../../transaksi/project/menghapus-stage.html"><strong aria-hidden="true">1.1.8.</strong> Menghapus Project Stages</a></li><li><a href="../../transaksi/project/membuat-contract.html"><strong aria-hidden="true">1.1.9.</strong> Membuat Project Melalui Contract</a></li><li><a href="../../transaksi/project/membuat-sales-order.html"><strong aria-hidden="true">1.1.10.</strong> Membuat Project Melalui Sales Order</a></li><li><a href="../../transaksi/project/menyelesaikan.html"><strong aria-hidden="true">1.1.11.</strong> Menyelesaikan Project</a></li><li><a href="../../transaksi/project/membuka-kembali.html"><strong aria-hidden="true">1.1.12.</strong> Membuka Kembali Project</a></li><li><a href="../../transaksi/project/membatalkan.html"><strong aria-hidden="true">1.1.13.</strong> Membatalkan Project</a></li></ol></li><li><a href="../../transaksi/task.html"><strong aria-hidden="true">1.2.</strong> Task</a></li><li><ol class="section"><li><a href="../../transaksi/task/penjelasan.html"><strong aria-hidden="true">1.2.1.</strong> Penjelasan</a></li><li><a href="../../transaksi/task/membuat.html"><strong aria-hidden="true">1.2.2.</strong> Membuat Task</a></li><li><a href="../../transaksi/task/memodifikasi.html"><strong aria-hidden="true">1.2.3.</strong> Memodifikasi Task</a></li><li><a href="../../transaksi/task/menambahkan-predecessor.html"><strong aria-hidden="true">1.2.4.</strong> Menambahkan Task Predecessors</a></li><li><a href="../../transaksi/task/memodifikasi-predecessor.html"><strong aria-hidden="true">1.2.5.</strong> Memodifikasi Task Predecessors</a></li><li><a href="../../transaksi/task/menghapus-predecessor.html"><strong aria-hidden="true">1.2.6.</strong> Menghapus Task Predecessors</a></li><li><a href="../../transaksi/task/memulai.html"><strong aria-hidden="true">1.2.7.</strong> Memulai Task</a></li><li><a href="../../transaksi/task/menyelesaikan.html"><strong aria-hidden="true">1.2.8.</strong> Menyelesaikan Task</a></li><li><a href="../../transaksi/task/membatalkan.html"><strong aria-hidden="true">1.2.9.</strong> Membatalkan Task</a></li></ol></li><li><a href="../../transaksi/issue.html"><strong aria-hidden="true">1.3.</strong> Issue</a></li></ol></li><li><a href="../../konfigurasi.html"><strong aria-hidden="true">2.</strong> Konfigurasi</a></li><li><ol class="section"><li><a href="../../konfigurasi/task-stage.html"><strong aria-hidden="true">2.1.</strong> Task Stage</a></li><li><a href="../../konfigurasi/project-template.html"><strong aria-hidden="true">2.2.</strong> Project Template</a></li><li><ol class="section"><li><a href="../../konfigurasi/project-template/penjelasan.html"><strong aria-hidden="true">2.2.1.</strong> Penjelasan Project Template</a></li><li><a href="../../konfigurasi/project-template/membuat.html"><strong aria-hidden="true">2.2.2.</strong> Membuat Project Template</a></li><li><a href="../../konfigurasi/project-template/memodifikasi.html"><strong aria-hidden="true">2.2.3.</strong> Memodifikasi Project Template</a></li><li><a href="../../konfigurasi/project-template/menghapus.html"><strong aria-hidden="true">2.2.4.</strong> Menghapus Project Template</a></li><li><a href="../../konfigurasi/project-template/menambah-task-template.html"><strong aria-hidden="true">2.2.5.</strong> Menambahkan Task Template</a></li><li><a href="../../konfigurasi/project-template/memodifikasi-task-template.html"><strong aria-hidden="true">2.2.6.</strong> Memodifikasi Task Template</a></li><li><a href="../../konfigurasi/project-template/menghapus-task-template.html"><strong aria-hidden="true">2.2.7.</strong> Menghapus Task Template</a></li><li><a href="../../konfigurasi/project-template/menambah-task-template-dependency.html"><strong aria-hidden="true">2.2.8.</strong> Menambahkan Task Template Dependency</a></li><li><a href="../../konfigurasi/project-template/memodifikasi-task-template-dependency.html" class="active"><strong aria-hidden="true">2.2.9.</strong> Memodifikasi Task Template Dependency</a></li><li><a href="../../konfigurasi/project-template/menghapus-task-template-dependency.html"><strong aria-hidden="true">2.2.10.</strong> Menghapus Task Template Dependency</a></li><li><a href="../../konfigurasi/project-template/membuat-project-dari-template.html"><strong aria-hidden="true">2.2.11.</strong> Membuat Project Dari Project Template</a></li></ol></li><li><a href="../../konfigurasi/tag.html"><strong aria-hidden="true">2.3.</strong> Tag</a></li><li><a href="../../konfigurasi/task-category.html"><strong aria-hidden="true">2.4.</strong> Task Category</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Odoo - Project Management</h1>
+
+                        <div class="right-buttons">
+                            <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#memodifikasi-task-template-dependency" id="memodifikasi-task-template-dependency">Memodifikasi Task Template Dependency</a></h1>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../konfigurasi/project-template/menambah-task-template-dependency.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../konfigurasi/project-template/menghapus-task-template-dependency.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../../konfigurasi/project-template/menambah-task-template-dependency.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="../../konfigurasi/project-template/menghapus-task-template-dependency.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
