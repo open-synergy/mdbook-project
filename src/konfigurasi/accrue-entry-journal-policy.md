@@ -1,0 +1,1 @@
+# Accrue Entry Journal Policy
