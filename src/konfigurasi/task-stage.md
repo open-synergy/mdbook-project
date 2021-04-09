@@ -1,25 +1,9 @@
 # Task Stage
 
-### <a name="bagian-header">HEADER</a>
+*Task Stage* adalah fitur yang digunakan untuk mengatur master data task stage.
 
-![](../img/task-stage/form.png)
-
-#### <a name="field-name">Stage Name</a>
-
-Nama *Stage*(Tahapan) dari project
-
-#### <a name="field-sequence">Sequence</a>
-
-No. Urut
-
-#### <a name="field-case-default">Default for New Projects</a>
-
-Jika dicentang, *Stage*(Tahapan) secara default akan terbuat apabila terdapat projek baru.
-
-#### <a name="field-fold">Folded in Kanban View</a>
-
-Jika dicentang, *Stage*(Tahapan) pada kanban view akan secara otomatis di-*Fold*(Dilipat/ditutup)
-
-#### <a name="field-description">Description</a>
-
-Deskripsi *Stage*(Tahapan)
+- [Penjelasan Task Stage](./task-stage/penjelasan.md)
+- [Membuat Task Stage](./task-stage/membuat.md)
+- [Memodifikasi Task Stage](./task-stage/memodifikasi.md)
+- [Menghapus Task Stage](./task-stage/menghapus.md)
+- [Menonaktifkan Task Stage](./task-stage/menonaktifkan.md)
