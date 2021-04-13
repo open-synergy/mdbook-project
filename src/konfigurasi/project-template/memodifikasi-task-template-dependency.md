@@ -10,6 +10,8 @@
 
 1. Pilih dan sesuaikan **[Predecessor Task](./penjelasan.md#field-predecessor-task-id)** jika dibutuhkan. Wajib diisi.
 2. Pilih dan sesuaikan **[Dependency Type](./penjelasan.md#field-dependency-Type)** jika dibutuhkan. Wajib diisi.
-3. Pilih dan sesuaikan **[Sucessor Task](./penjelasan.md#field-sucessor-task-id)** jika dibutuhkan. Wajib diisi.
-4. Pilih dan sesuaikan **[Dependency Type](./penjelasan.md#field-dependency-Type)** jika dibutuhkan. Wajib diisi.
-5. Lanjutkan [langkah ke-13 instruksi kerja Menambahkan Task Template](./menambah-task-template.md) atau [langkah ke-13 instruksi kerja Memodifikasi Task Template](./memodifikasi-task-template.md).
+3. Lanjutkan [langkah ke-13 instruksi kerja Menambahkan Task Template](./menambah-task-template.md) atau [langkah ke-13 instruksi kerja Memodifikasi Task Template](./memodifikasi-task-template.md).
+
+## C. OUTPUT
+
+*(Tidak ada instruksi khusus)*
