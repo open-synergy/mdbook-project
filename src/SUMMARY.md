@@ -34,7 +34,6 @@
         - [Membuat Task Stage](./konfigurasi/task-stage/membuat.md)
         - [Memodifikasi Task Stage](./konfigurasi/task-stage/memodifikasi.md)
         - [Menghapus Task Stage](./konfigurasi/task-stage/menghapus.md)
-        - [Menonaktifkan Task Stage](./konfigurasi/task-stage/menonaktifkan.md)
     - [Project Template](./konfigurasi/project-template.md)
         - [Penjelasan Project Template](./konfigurasi/project-template/penjelasan.md)
         - [Membuat Project Template](./konfigurasi/project-template/membuat.md)
