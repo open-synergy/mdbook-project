@@ -12,7 +12,7 @@
 ![](../../img/reference-document-type/tombol-create.png)
 
 3. Isi **[Reference Document Type](./penjelasan.md#field-ref-doc-type)**. Wajib diisi.
-4. Aktifkan/ Deaktifkan **[Active](./penjelasan.md#field-active)**. Tidak wajib diisi.
+4. Aktifkan/ Deaktifkan **[Active](./penjelasan.md#field-active)**.
 5. Beralih ke tab **[Note](./penjelasan.md#tab-note)**.
 6. Isi **[Note](./penjelasan.md#field-note)**. Tidak wajib diisi.
 7. Klik tombol **Save** pada bagian atas-kiri form.
