@@ -6,4 +6,3 @@
 - [Membuat Task Stage](./task-stage/membuat.md)
 - [Memodifikasi Task Stage](./task-stage/memodifikasi.md)
 - [Menghapus Task Stage](./task-stage/menghapus.md)
-- [Menonaktifkan Task Stage](./task-stage/menonaktifkan.md)
