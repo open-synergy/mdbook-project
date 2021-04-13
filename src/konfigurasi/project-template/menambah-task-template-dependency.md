@@ -14,11 +14,8 @@
 
 2. Pilih **[Predecessor Task](./penjelasan.md#field-predecessor-task-id)**. Wajib diisi.
 3. Pilih **[Dependency Type](./penjelasan.md#field-dependency-Type)**. Wajib diisi.
+4. Lanjutkan [langkah ke-13 instruksi kerja Menambahkan Task Template](./menambah-task-template.md) atau [langkah ke-13 instruksi kerja Memodifikasi Task Template](./memodifikasi-task-template.md).
 
-4. Klik tombol **Add an Item** pada tabel **Sucessor**.
+## C. OUTPUT
 
-![](../../img/project-template/tombol-add-item-sucessor.png)
-
-5. Pilih **[Sucessor Task](./penjelasan.md#field-sucessor-task-id)**. Wajib diisi.
-6. Pilih **[Dependency Type](./penjelasan.md#field-dependency-Type)**. Wajib diisi.
-7. Lanjutkan [langkah ke-13 instruksi kerja Menambahkan Task Template](./menambah-task-template.md) atau [langkah ke-13 instruksi kerja Memodifikasi Task Template](./memodifikasi-task-template.md).
+*(Tidak ada instruksi khusus)*
