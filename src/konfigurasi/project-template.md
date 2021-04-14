@@ -6,7 +6,7 @@
 - [Membuat Project Template](./project-template/membuat.md)
 - [Memodifikasi Project Template](./project-template/memodifikasi.md)
 - [Menghapus Project Template](./project-template/menghapus.md)
-- [Menambahkan Task Template](./task-stage/menambah-task-template.md)
+- [Menambahkan Task Template](./project-template/menambah-task-template.md)
 - [Memodifikasi Task Template](./project-template/memodifikasi-task-template.md)
 - [Menghapus Task Template](./project-template/menghapus-task-template.md)
 - [Menambahkan Task Template Dependency](./project-template/menambah-task-template-dependency.md)
