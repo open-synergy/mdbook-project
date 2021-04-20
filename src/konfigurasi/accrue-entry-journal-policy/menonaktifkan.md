@@ -13,7 +13,6 @@
 ![](../../img/accrue-entry-journal-policy/tombol-edit.png)
 
 4. Deaktifkan **[Active](./penjelasan.md#field-active)**.
-
 5. Klik tombol **Save** pada bagian atas-kiri form.
 
 ![](../../img/accrue-entry-journal-policy/tombol-simpan-modifikasi.png)
