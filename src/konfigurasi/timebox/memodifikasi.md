@@ -17,11 +17,9 @@
 6. Aktifkan/ Deaktifkan **[Active](./penjelasan.md#field-active)** jika dibutuhkan. Tidak wajib diisi.
 7. Pilih dan sesuaikan **[Date Start](./penjelasan.md#field-date-start)** jika dibutuhkan. Wajib diisi.
 8. Pilih dan sesuaikan **[Date Stop](./penjelasan.md#field-date-stop)** jika dibutuhkan. Wajib diisi.
-9. Beralih ke tab **[Tasks](./penjelasan.md#tab-tasks)**.
-10. <a name="l10">[Tambah](./menambah-task.md)/[Hapus](./menghapus-task.md) **Task**</a>. Ulangi langkah ini sampai **Task** sesuai dengan keinginan.
-11. Beralih ke tab **[Note](./penjelasan.md#tab-note)**.
-12. Isi dan sesuaikan **[Note](./penjelasan.md#field-note)** jika dibutuhkan. Tidak wajib diisi.
-13. Klik tombol **Save** pada bagian atas-kiri form.
+9. Beralih ke tab **[Note](./penjelasan.md#tab-note)**.
+10. Isi dan sesuaikan **[Note](./penjelasan.md#field-note)** jika dibutuhkan. Tidak wajib diisi.
+11. Klik tombol **Save** pada bagian atas-kiri form.
 
 ![](../../img/timebox/tombol-simpan-modifikasi.png)
 
