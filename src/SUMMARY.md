@@ -71,8 +71,6 @@
         - [Penjelasan Timebox](./konfigurasi/timebox/penjelasan.md)
         - [Membuat Timebox](./konfigurasi/timebox/membuat.md)
         - [Memodifikasi Timebox](./konfigurasi/timebox/memodifikasi.md)
-        - [Menambahkan Task](./konfigurasi/timebox/menambah-task.md)
-        - [Menghapus Task](./konfigurasi/timebox/menghapus-task.md)
         - [Menghapus Timebox](./konfigurasi/timebox/menghapus.md)
         - [Memulai Timebox](./konfigurasi/timebox/memulai.md)
         - [Menyelesaikan Timebox](./konfigurasi/timebox/menyelesaikan.md)
