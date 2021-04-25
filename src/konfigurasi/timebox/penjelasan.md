@@ -39,7 +39,7 @@ Tanggal berakhir timebox.
 ![](../../img/timebox/tab-task-detail-1.png)
 ![](../../img/timebox/tab-task-detail-2.png)
 
-[Penjelasan Task](../../penjelasan.md)
+[Penjelasan Task](../../../img/transaksi/task/penjelasan.md)
 
 #### <a name="tab-note">NOTE</a>
 
