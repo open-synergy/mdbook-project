@@ -21,7 +21,7 @@ Pop-up ***Questions*** akan muncul.
 2. Isi **[Question](./penjelasan.md#field-qc-name)**. Wajib diisi.
 3. Isi **[Sequence](./penjelasan.md#field-qc-sequence)**. Wajib diisi.
 4. Pilih **[Type](./penjelasan.md#field-qc-type)**. Wajib diisi.
-5. <a name="l5">[Tambah](./menambah-jawaban.md)/[Modifikasi](./memodifikasi-jawaban.md)/[Hapus](./menghapus-jawaban.md) **Answer**</a> untuk pilihan *Type* *Qualitative*. Ulangi langkah ini sampai **Answer** sesuai dengan keinginan.
+5. <a name="l5">[Tambah](./menambah-jawaban.md)/[Modifikasi](./memodifikasi-jawaban.md)/[Hapus](./menghapus-jawaban.md) **Answer**</a> untuk pilihan *Type* *Qualitative*. Ulangi langkah ini sampai **Answer** sesuai dengan keinginan. Langsung lanjut ke langkah ke-7.
 6. Isi nilai minimum dan maksimum untuk pilihan *Type* *Quantitative*. Wajib diisi.
 7. Klik tombol **Save & Close** pada bagian bawah-kiri pop-up **Question** untuk menyimpan data. Klik tombol **Save & New** pada bagian bawah-kiri pop-up **Question** untuk menyimpan data dan menambahkan data baru.
 

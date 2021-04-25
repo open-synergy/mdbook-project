@@ -12,7 +12,7 @@
 2. Isi dan sesuaikan **[Question](./penjelasan.md#field-qc-name)** jika dibutuhkan. Wajib diisi.
 3. Isi dan sesuaikan **[Sequence](./penjelasan.md#field-qc-sequence)** jika dibutuhkan. Wajib diisi.
 4. Pilih dan sesuaikan **[Type](./penjelasan.md#field-qc-type)** jika dibutuhkan. Wajib diisi.
-5. <a name="l5">[Tambah](./menambah-jawaban.md)/[Modifikasi](./memodifikasi-jawaban.md)/[Hapus](./menghapus-jawaban.md) **Answer**</a> untuk pilihan *Type* *Qualitative*. Ulangi langkah ini sampai **Answer** sesuai dengan keinginan.
+5. <a name="l5">[Tambah](./menambah-jawaban.md)/[Modifikasi](./memodifikasi-jawaban.md)/[Hapus](./menghapus-jawaban.md) **Answer**</a> untuk pilihan *Type* *Qualitative*. Ulangi langkah ini sampai **Answer** sesuai dengan keinginan. Langsung lanjut ke langkah ke-7.
 6. Isi dan sesuaikan nilai minimum dan maksimum untuk pilihan *Type* *Quantitative* jika dibutuhkan. Wajib diisi.
 7. Klik tombol **Save** pada bagian bawah-kiri form.
 
