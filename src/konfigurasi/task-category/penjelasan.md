@@ -35,7 +35,7 @@ Alamat URL instruksi
 
 #### <a name="field-qc-name">Question</a>
 
-Mendefinisikan pertanyaan yang akan diberikan pada saat melakukan *Quality Control*
+Pertanyaan yang akan diberikan pada saat melakukan *Quality Control*
 
 #### <a name="field-qc-sequence">Sequence</a>
 
@@ -43,22 +43,22 @@ No. Urut
 
 #### <a name="field-qc-type">Type</a>
 
-Tipe *Quality Control*. Terbagi atas 2 pilihan, yaitu:<br/>
-* **Qualitative**
-* **Quantitative**
+Tipe *Quality Control*, yaitu:<br/>
+* **Qualitative**. Pertanyaan QC harus dijawab dengan cara memilih pilihan yang disediakan.
+* **Quantitative**. Pertanyaan QC harus dijawab dengan mengisi nilai
 
 #### <a name="field-min-value">Min. Value</a>
 
-Nilai minimum jawaban.
+Nilai minimum jawaban. Diperlukan jika **Type** adalah **Quantitative**.
 
 #### <a name="field-max-value">Max. Value</a>
 
-Nilai maksimum jawaban.
+Nilai maksimum jawaban. Diperlukan jika **Type** adalah **Quantitative**.
 
 #### <a name="field-value">Value</a>
 
-Jawaban.
+Jawaban. Diperlukan jika **Type** adalah **Qualitative**.
 
 #### <a name="field-correct-answer">Correct Answer</a>
 
-Penanda jawaban yang benar.
+Penanda jawaban yang benar. Diperlukan jika **Type** adalah **Qualitative**.
