@@ -13,7 +13,7 @@
 ![](../../img/issue/tombol-edit.png)
 
 4. Beralih ke tab **[Duplicate Issues](./penjelasan.md#tab-duplicate-issues)**.
-5. Pilih **[Duplicate With](./penjelasan.md#field-duplicate-issues-duplicate-with)**. Tidak harus diisi.
+5. Pilih **[Duplicate With](./penjelasan.md#field-duplicate-issues-duplicate-with)**. Harus diisi.
 6. Klik tombol **Save** pada bagian atas-kiri form.
 
 ![](../../img/issue/tombol-simpan-modifikasi.png)

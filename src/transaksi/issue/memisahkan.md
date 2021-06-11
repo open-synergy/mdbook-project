@@ -13,7 +13,7 @@
 ![](../../img/issue/tombol-edit.png)
 
 4. Beralih ke tab **[Split Issue](./penjelasan.md#tab-split-issue)**.
-5. Pilih **[Split Issue From](./penjelasan.md#field-split-issue-split-from)**. Tidak harus diisi.
+5. Pilih **[Split Issue From](./penjelasan.md#field-split-issue-split-from)**. Harus diisi.
 6. Klik tombol **Save** pada bagian atas-kiri form.
 
 ![](../../img/issue/tombol-simpan-modifikasi.png)
