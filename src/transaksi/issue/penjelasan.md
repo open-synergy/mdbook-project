@@ -29,7 +29,7 @@ User yang ditugaskan untuk menyelesaikan *issue*.
 
 #### <a name="field-contact">Contact</a>
 
-Nama kontak terkait *issue*.
+Nama kontak yang menyampaikan/memulai *issue*.
 
 #### <a name="field-contact-commercial">Contact's Commercial Partner</a>
 
@@ -37,15 +37,15 @@ Nama perusahaan kontak.
 
 #### <a name="field-email">Email</a>
 
-Alamat email kontak terkait *issue*.
+Alamat email dari Contact
 
 #### <a name="field-project">Project</a>
 
-Referensi nama proyek.
+Nama proyek dimana *issue* terjadi
 
 #### <a name="field-id">ID</a>
 
-Nomor identitas *issue*.
+ID database *issue*
 
 #### <a name="field-version">Version</a>
 
@@ -54,10 +54,6 @@ Versi *issue*.
 #### <a name="field-priority">Priority</a>
 
 Prioritas *issue*.
-
-#### <a name="field-header-task">Task</a>
-
-Nama task.
 
 ### <a name="tab-description">DESCRIPTION</a>
 
@@ -77,7 +73,7 @@ Deskripsi log pekerjaan *issue*.
 
 #### <a name="field-worklogs-other-partner">Other Partner</a>
 
-Nama partner.
+Nama kontak dimana *issue* terjadi. Hanya diisi apabila Project yang dipilih tidak eksklusif untuk kontak tertentu
 
 #### <a name="field-worklogs-qty">Quantity</a>
 
@@ -85,7 +81,7 @@ Jumlah waktu pekerjaan.
 
 #### <a name="field-worklogs-analytic">Analytic Account</a>
 
-Nama akun analitik.
+Nama objek biaya yang digunakan untuk pembebanan worklog.
 
 #### <a name="field-worklogs-date">Date</a>
 
@@ -129,7 +125,7 @@ Penanda status aktif.
 
 #### <a name="field-extra-info-analytic">Analytic Account</a>
 
-Nama akun analitik.
+Nama objek biaya terkait *issue*.
 
 ### <a name="tab-duplicate-issues">DUPLICATE ISSUES</a>
 
@@ -137,63 +133,11 @@ Nama akun analitik.
 
 #### <a name="field-duplicate-issues-duplicate-with">Duplicate With</a>
 
-*Issue* yang akan diduplikasi.
-
-#### <a name="field-duplicate-issues-id">ID</a>
-
-Nomor identitas *issue*.
-
-#### <a name="field-duplicate-issues-code">Issue Code</a>
-
-Kode *issue*.
-
-#### <a name="field-duplicate-issues-contact">Contact</a>
-
-Nama kontak terkait *issue*.
-
-#### <a name="field-duplicate-issues-contact-commercial">Contact's Commercial Partner</a>
-
-Nama perusahaan kontak.
-
-#### <a name="field-duplicate-issues-priority">Priority</a>
-
-Prioritas *issue*.
-
-#### <a name="field-duplicate-issues-creation">Creation Date</a>
-
-Tanggal *issue* dibuat.
-
-#### <a name="field-duplicate-issues-assigned">Assign To</a>
-
-User yang ditugaskan untuk menyelesaikan *issue*.
-
-#### <a name="field-duplicate-issues-stage">Stage</a>
-
-Tahapan penyelesaian *issue*.
+*Issue* awal yang isinya sama dengan *issue* yang sedang dibuka. Hanya diisi apabila *issue* sudah pernah dicatat pada *issue* lain.
 
 ### <a name="tab-tasks">TASKS</a>
 
 ![](../../img/issue/tab-tasks.png)
-
-#### <a name="field-tasks-task-number">Task Number</a>
-
-Nomor task.
-
-#### <a name="field-tasks-category">Category</a>
-
-Kategori task.
-
-#### <a name="field-tasks-task-summary">Task Summary</a>
-
-Penjelasan singkat task.
-
-#### <a name="field-tasks-project">Project</a>
-
-Nama project.
-
-#### <a name="field-tasks-task-assigned">Assigned To</a>
-
-User yang ditugaskan untuk menyelesaikan task.
 
 #### <a name="field-tasks-baseline-start">Baseline Start</a>
 
@@ -265,23 +209,7 @@ Tanggal berhenti timebox.
 
 #### <a name="field-split-issue-split-from">Split Issue From</a>
 
-Referensi *Issue* yang dipisahkan.
-
-#### <a name="field-split-issue-id">ID</a>
-
-Nomor identitas *issue*.
-
-#### <a name="field-split-issue-code">Issue Code</a>
-
-Kode *issue*.
-
-#### <a name="field-split-issue-contact">Contact</a>
-
-Nama kontak terkait *issue*.
-
-#### <a name="field-split-issue-contact-commercial">Contact's Commercial Partner</a>
-
-Nama perusahaan kontak.
+*Issue* asal. Hanya diisi apabila *issue* berasal dari *issue* lain. Pemisahan *issue* biasanya terjadi karena ada *issue* dengan banyak pertanyaan/permintaan. *Issue* yang besar dipisah menjadi issue-issue dengan cakupan lebih kecil.
 
 #### <a name="field-split-issue-priority">Priority</a>
 
